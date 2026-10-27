@@ -1,21 +1,87 @@
-<<<<<<< HEAD
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# StudyPad 📚 – Pentab-Optimized Digital Notebook
 
-Currently, two official plugins are available:
+[![Live Demo](https://img.shields.io/badge/Live_Demo-mystudypad.vercel.app-000000?style=for-the-badge&logo=vercel)](https://mystudypad.vercel.app)
+[![React](https://img.shields.io/badge/React-18+-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-Fast_Bundler-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+StudyPad is a client-side digital notebook and drawing canvas engineered for fluid pen tablet (pentab) and stylus interactions. Designed with minimal latency and high frame rates for distraction-free math scratchpads, lecture notes, and diagrams.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# studypad
-StudyPad v1.0 - Ready for deployment
->>>>>>> 3e1fdd966dd05159db47e5df632e20b738773833
+<hr>
+<img width="1920" height="1007" alt="image" src="https://github.com/user-attachments/assets/fa5b2411-d6ad-472a-969c-4f11651e57e8" />
+
+<hr>
+
+
+
+## 🚀 Key Features
+
+- **Hardware & Stylus Optimized:** Tuned for graphics tablets (Wacom, Huion, XP-Pen) using modern Pointer Events for smooth stroke rendering.
+- **Dynamic Tooling Suite:**
+  - Pen & Eraser with custom brush radius and dynamic stroke thickness.
+  - Multi-palette color pickers with high-contrast active highlights.
+- **Multi-Page Management:** Instant page indexing, dynamic page creation, and seamless navigation across document sheets.
+- **Theming & Display Modes:**
+  - Dark, Slate, and Light themes designed to minimize eye strain during extended study sessions.
+  - One-click distraction-free Fullscreen mode.
+- **Client-Side Export:** Clean raster/vector exports directly to image formats and document sheets with zero server overhead.
+
+---
+
+## 🛠️ Tech Stack & Architecture
+
+- **Framework:** React.js (Hooks, Functional Architecture)
+- **Tooling & Build:** Vite (ESBuild-powered instant HMR)
+- **Rendering Engine:** HTML5 2D Canvas API & Pointer Events
+- **Styling:** Tailwind CSS / Responsive Flexbox
+- **Hosting:** Vercel
+
+---
+
+## ⚡ Quick Start (Local Setup)
+
+### Prerequisites
+- [Node.js (v18.x or newer)](https://nodejs.org/)
+- `npm` or `yarn`
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/raunakranjann/studypad.git](https://github.com/raunakranjann/studypad.git)
+   cd studypad
+
+```
+
+2. Install dependencies:
+```bash
+npm install
+
+```
+
+
+3. Launch the development server:
+```bash
+npm run dev
+
+```
+
+
+Open `http://localhost:5173` in your browser.
+4. Build for production:
+```bash
+npm run build
+
+```
+
+
+
+---
+
+## 📄 License
+
+This project is open-source under the [MIT License](https://www.google.com/search?q=LICENSE).
